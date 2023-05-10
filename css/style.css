@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: black;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    background-image: url(../src/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 38px;
+    margin-bottom: 50px;
+}
+
+.logo__img {
+    display: flex;
+    margin-left: 100px;
+    width: 20%;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+.header__title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.header__title span {
+    display: block;
+    font-size: 42px;
+    line-height: 20px;
+}
+
+.button__path {
+    transition: fill .6s;
+}
+
+.button:hover .button__path {
+    fill: rgb(126, 24, 24);
+}
+
+.header__button {
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+.button__text {
+    font-size: 30px;
+    line-height: 25px;
+    display: inline-block;
+    transform: translate(0px, -40px);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__item {
+    transition: all .2s ease;
+}
+
+.social__item:hover {
+    transform: scale(1.2);
+}
+
+.social__link {
+    padding: 0px 10px;
+}
+
+.title {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 2000;
+}
+
+.titler {
+    color: white;
+    flex-basis: 500px;
+    text-align: left;
+    width: 400px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    margin-left: 200px;
+}
+
+.service {
+    text-align: right;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.service__img {
+    margin-right: 0px;
+    width: 800px;
+}
+
+.service__inner {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.service .service__img {
+    transition: .3s;
+}
+
+.service .service__img:hover {
+    transform: scale(1.05);
+}
+
+.service__content {
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.service__info {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    width: 500px;
+}
+
+.artists {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.artists__title {
+    text-align: center;
+}
+
+.artists__img {
+    margin-top: 10px;
+    width: 90%;
+}
+
+.artists__signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.artists__guitarists {
+    width: 412px;
+    height: 512px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.artists__guitarists img {
+    width: initial;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.artists__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.artist__name {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.7;
+}
+
+.artist__song {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.8;
+    font-family: Roboto;
+}
+
+.guitars{
+    color: wheat;
+}
+
+.guitar__models {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.guitar__type{
+    margin: 5px;
+    text-align: center;
+    transition: all .2s ease;
+}
+
+.guitar__type:hover{
+    transform: scale(1.1);
+}
+
+.__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.8;
+    font-family: Roboto;
+}
+
+.footer{
+    margin: 0px 40px;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    color: white;
+    padding: 20px 200px;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+}
+
+.footer__checkout{
+    text-align: left;
+    width: 400px;
+}
+
+.footer__contacts{
+    text-align: left;
+    width: 400px;
+}
+
+.footer__contacts-title{
+    margin-bottom: 40px;
+}
+
+.footer__contacts-content{
+    font-size: 15px;
+    line-height: 2.3;
+}
+
+.social__footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer__top-content{
+    color: white;
+}
+
+.form__title{
+    margin-bottom: 30px;
+}
+
+.footer__input{
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    padding-bottom: 11px;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer__input::placeholder{
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+}
+
+.footer__form-btn{
+    background-color: transparent;
+    text-align: left;
+    border: none;
+    padding: 0px;
+    color: white;
+}
+
+.contacts{
+    padding: 5px 230px;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo__img-footer{
+    width: 170px;
+}
+
+.footer__bottom-link{
+    color: white;
+    font-size: 20px;
+}
+
+.footer__bottom-link:hover{
+    text-decoration: underline;
+}
+
+.welcome__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome__title{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.welcome__content{
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 230px;
+    font-family: Roboto;
+}
+
+.welcome__ola{
+    color: wheat;
+    text-align: center;
+    padding: 10px 230px;
+}
