@@ -1,3 +1,3 @@
 ---
-Website Link: https://uvkuznetsov.github.io/solar.io/
+Website Link https://uvkuznetsov.github.io/solar.io/
 ---
